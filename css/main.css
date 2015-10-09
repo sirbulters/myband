@@ -1,0 +1,230 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+
+html{
+    font-family:'Helvetica Neue',Arial,sans-serif;
+   /* background:url('../images/background.jpg');*/
+
+    background: url("../images/background.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6699ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px;
+    margin-top: 100px;
+    background-color: rgba(226, 227, 232, 0.8);
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #444;
+
+}
+
+/*body
+{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #444;
+}*/
+
+.desc {
+
+	background-color: #fff;
+	border: 1px solid #000;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -20px;
+	width: 200px;
+		
+}
+
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+
+   /* background-color: lightsteelblue;*/
+    text-align: center;
+    background-color: rgba(255,255,255, 1);
+    transition: all 0.5s ease;
+    border-bottom: solid;
+    border-bottom-color: #444;
+    display: inline-block;
+}
+.selected {
+    height: 32px;
+    bottom: 0px;
+    /*border-bottom: solid;
+    border-bottom-color: #444;*/
+    -webkit-transform: scale(1.2,1.2);
+}
+
+#header nav ul{
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+#navigatie{
+    display: inline-block;
+}
+
+header nav{
+    display: inline-block;
+
+}
+nav{
+float: left;
+    display: inline-block;
+}
+
+Header:hover{
+    background-color: rgba(255,255,255, 1 );
+    border-bottom-color: grey;
+
+}
+
+ul {
+    float: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+ul img{
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0px;
+    padding: 2px;
+
+}
+
+li:hover{
+
+    margin: 0;
+    padding: 2px;
+}
+
+
+
+footer{
+    position: fixed;
+  /*  background-color: rgba(0,0,0, 0.1);*/
+    background-color: rgba(255,255,255, 1 );
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 2px;
+    text-align: left;
+    font-size: 10pt;
+}
+
+footer:hover{
+    background-color: rgba(255,255,255, 0.5);
+    transition: all 0.5s ease;
+
+}
+
+
+
+#searchform{
+    position: absolute;
+    right: 20px;
+    float: right;
+    top: 15px;
+}
+
+#logo{
+    position: absolute;
+    float: left;
+    left: 10px;
+
+}
+
+input[type=text] {padding:5px; border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=text]:focus {border-color:#333; }
+
+input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+
+/*newspagina*/
+
+#news{
+    display: inline-block;
+    clear: left;
+}
+
+#newsh1{
+    margin-left:150px;
+    text-align: left;
+}
+
+#newsimage{
+    float: left;
+}
+
+#newsimage img{
+    border-radius: 5px;
+}
+
+#newscontent{
+    margin-left:150px;
+    /*float: right;*/
+    text-align: left;
+}
+
+/*tourpagina*/
+
+/*mee aan het werk*/
+#tourtable{
+    font-size: 10px;
+}
+
+table tr td{
+    font-size: 10px;
+}
+
+/*musicpagina*/
+
+
+
+/*2 en een half minuut, 600 watt UNOX ROOKWORST*/
+
